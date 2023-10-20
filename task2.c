@@ -126,7 +126,7 @@ int main() {
                
                 
                 if(strcmp(u.flag.flag,"true") ==0 || strcmp(u.flag.flag,"1")== 0){
-                printf("you allow to login \n");
+                printf("  \n  you allow to login \n");
                 printf("\nEnter your username : ");
                 scanf("%s", username);
 
@@ -142,7 +142,7 @@ int main() {
 
                 else if (strcmp(u.flag.flag,"false") ==0 || strcmp(u.flag.flag,"0")== 0)
                 {
-                     printf(" you not allow to login  \n "); 
+                     printf(" \n  you not allow to login  \n "); 
                 }
                 
                
